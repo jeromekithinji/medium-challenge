@@ -19,6 +19,8 @@
 
     &__topics {
         display: block;
+        list-style-type: none;
+        text-align: left;
     }
 
     &__topic {
@@ -27,6 +29,8 @@
         text-decoration: none;
         text-align: left;
         justify-content: left;
+        padding-top: 5px;
+
     }
     
 }
