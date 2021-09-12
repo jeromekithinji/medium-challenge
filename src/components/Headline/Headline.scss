@@ -1,0 +1,17 @@
+@use "../../assets/sass/variables.scss" as *;
+
+
+.headline__section {
+    align-content: flex-start;
+    justify-content:left;
+
+    .headline__img {
+        width: 100%
+    }
+
+    h1, p {
+        text-align: left;
+    }
+}
+
+

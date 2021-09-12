@@ -1,0 +1,24 @@
+@use "../../assets/sass/variables.scss" as *;
+
+
+.article {
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+
+    .article__details {
+        border: 2px solid blue;
+        text-align: left;
+    }
+
+    .article__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .article__img {
+        border: 2px solid red;
+
+    }
+}
+

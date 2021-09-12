@@ -1,0 +1,49 @@
+@use "../../assets/sass/variables.scss" as *;
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    color: black;
+    box-shadow: 0 0 10px 0 black;
+    border-bottom: 1.5px solid black;
+    margin-bottom: 70px;
+
+
+    &__logo {
+        height: 30px;
+    }
+}
+
+.nav__img{
+    height: 60px;
+    width: 200px;
+    padding-right: 5px;
+    border-right: 2px solid lightgray;
+}
+
+.nav__left {
+    display: flex;
+
+    h1 {
+        margin-left: 15px;
+        // padding-left: 10px;
+    }
+}
+
+.nav__right {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+
+    p, h3, button {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav {
+        grid-column: 1 / -1;
+    }
+}

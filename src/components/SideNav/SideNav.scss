@@ -1,0 +1,33 @@
+@use "../../assets/sass/variables.scss" as *;
+
+.sideNav {
+
+}
+
+.topic {
+    margin-bottom: 100px;
+}
+
+.otherTopics {
+    
+    &__header {
+        text-transform: capitalize;
+        padding-bottom: 10px;
+        border-bottom: 1px solid lightgrey;
+        text-align: left;
+    }
+
+    &__topics {
+        display: block;
+    }
+
+    &__topic {
+        text-transform: capitalize;
+        color: $color-grey;
+        text-decoration: none;
+        text-align: left;
+        justify-content: left;
+    }
+    
+}
+
