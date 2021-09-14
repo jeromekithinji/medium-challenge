@@ -2,14 +2,16 @@ import React from 'react';
 import "./SideNavArticles.scss";
 
 
-const SideNavArticles = () => {
+const SideNavArticles = (props) => {
+
+    const {name, time} = props;
+
     return (
         <div className="sideNavArticles">
-            <h3 className="sideNavArticles__header">popular in technology</h3>
             <div className="sideNavArticles__article">
                 <div className="article-info">
-                    <h2 className="arcticle-name">Article Name</h2>
-                    <p className="article-time">Article time</p>
+                    <h3 className="arcticle-name">{name}</h3>
+                    <p className="article-time">{time}</p>
                 </div>
 
                 <div className="article-img">

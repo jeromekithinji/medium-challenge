@@ -3,10 +3,11 @@
 
 .article {
     display: grid;
-    grid-template-columns: 3fr 1.5fr;
+    grid-template-columns: 3fr 1fr;
+    height: 25vh;
 
     .article__details {
-        border: 2px solid blue;
+        // border: 2px solid blue;
         text-align: left;
     }
 
@@ -14,10 +15,15 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        h4, p {
+            padding: 0;
+        }
     }
 
     .article__img {
         border: 2px solid red;
+        // height: 25vh;
 
     }
 }

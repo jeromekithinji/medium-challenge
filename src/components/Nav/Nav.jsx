@@ -12,8 +12,8 @@ const Nav = () => {
                 <h1 className="nav__heading">Programming</h1>
             </div>
             <div className="nav__right">
-                <p className="nav__link">Become a member</p>
-                <h3 className="nav__link">Sign in</h3>
+                <p className="nav__link member">Become a member</p>
+                <h3 className="nav__link signIn">Sign in</h3>
                 <button className="nav__button">Get started</button>
             </div>
         </nav>

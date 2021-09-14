@@ -27,7 +27,8 @@ const SideNav = () => {
             </section>
 
             <section className="topicArticles">
-                <SideNavArticles />
+                <h3 className="sideNavArticles__header">POPULAR IN TECHNOLOGY</h3>
+                <SideNavArticles name="Python programming?" time="4min"/>
             </section>
         </div>
     )

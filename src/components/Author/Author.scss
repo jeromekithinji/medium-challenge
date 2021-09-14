@@ -7,18 +7,23 @@
     margin-top: 5px;
 
     .author__img {
+        padding: 5px;
+        border: 1px solid $color-green;
         border-radius: 50%;
-        width: 50px;
-        height: 100%;
+        width: 60px;
+        height: 60px;
+        vertical-align: middle;
+
     }
 
     .author__text {
-        margin-left: 5px;
+        // margin-left: 5px;
         display:block;
         justify-content: center;    
-}
+    }
 
     .author__name, .author__date {
         text-align: center;
+        margin-left: 5px;
     }
 }

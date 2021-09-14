@@ -1,0 +1,74 @@
+@use "../../assets/sass/variables.scss" as *;
+
+.featuredWriter {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+    // border: 1.5px solid black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #F2F2F2;
+    // margin: 0px 500px 20px 500px;
+    // height: 100vh;
+    // width: 80vw;
+
+    h2 {
+        text-align: left;
+        text-transform: uppercase;
+        color: black;
+    }
+
+    &__left {
+        // border: 2px solid blueviolet;
+        // background-color: #F2F2F2;
+
+    }
+
+    &__right {
+        // border: 2px solid turquoise;
+        // background-color: #F2F2F2;
+
+    }
+
+    &__img {
+        padding: 5px;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        vertical-align: middle;
+
+    }
+
+    &__text {
+        // margin-left: 5px;
+        display:block;
+        justify-content: center;    
+    }
+
+    &__info {
+        // margin-left: 5px;
+        display:block;
+        justify-content: center;    
+    }
+
+    &__name, &__date {
+        // text-align: left;
+        // margin-left: 5px;
+    }
+}
+
+.featuredWriter__writer {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.featuredWriter__left  {
+    button {
+        background-color: $color-green;
+        color: white;
+        border-radius: 99em;
+        text-align: center;   
+    }
+}
